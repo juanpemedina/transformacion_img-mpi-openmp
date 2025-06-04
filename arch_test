@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Ejecutar binario adecuado según arquitectura
+if [[ $(uname -m) == aarch64 ]]; then
+  /mirror/mpiu/transformacion_img-mpi-openmp/processor_arm "$@"
+  echo Success
+else
+  /mirror/mpiu/transformacion_img-mpi-openmp/processor_x86 "$@"
+  echo Success
+fi
