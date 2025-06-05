@@ -72,7 +72,6 @@ Si deseas consultar una versión visual o extenderlo a una wiki:
 
 ![Captura del sistema](https://drive.google.com/uc?export=view&id=1hY6Uc2dhRBsOyIrK2bJMrrgzRfcSLXHp)
 
-Esta GUI desarrollada en Python y Qt permite seleccionar carpetas, lanzar procesamiento y visualizar métricas en tiempo real de forma amigable.
 
 ---
 
