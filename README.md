@@ -16,9 +16,9 @@ Implementar un sistema distribuido con **3 computadoras en red** que aplique **6
 
 ---
 
-## ⚙️ Cómo Compilar y Ejecutar
+## Cómo Compilar y Ejecutar
 
-### 🔧 Compilación
+###  Compilación
 
 Desde el nodo maestro (PC1), compila el programa con soporte para OpenMP:
 
@@ -31,7 +31,7 @@ Si tienes x86
 mpicc -fopenmp main_MPI.c -o processor_x86
 ```
 
-### 🏃‍♂️ Ejecución
+### Ejecución
 
 1. Asegúrate de tener configurado las IPs de los nodos:
 
@@ -50,7 +50,7 @@ mpiexec -np 24 -hosts pc1,pc2,pc3 /ruta/arch_test /ruta/imagenes_bmp
 
 3. Las imágenes procesadas aparecerán en `imagen_transform/` y las métricas en archivos `metrics_rank.txt`.
 
-### 🧪 Requisitos Previos
+### Requisitos Previos
 
 * Conectividad LAN o NAT (si usas VirtualBox)
 * SSH sin contraseña configurado (`ssh-keygen` y `ssh-copy-id`)
@@ -59,41 +59,24 @@ mpiexec -np 24 -hosts pc1,pc2,pc3 /ruta/arch_test /ruta/imagenes_bmp
 
 ---
 
-## 🔗 Acceso a la Documentación
+## Acceso a la Documentación
 
 Este documento contiene toda la información técnica del proyecto.
 
 Si deseas consultar una versión visual o extenderlo a una wiki:
-[📘 Ver Documentación en GitHub Wiki (enlace de ejemplo)](https://github.com/usuario/proyecto/wiki)
+[Ver Documentación en GitHub Wiki (enlace de ejemplo)](https://github.com/juanpemedina/transformacion_img-mpi-openmp/wiki/01_descripci%C3%B3n)
 
 ---
 
 ## 🖼️ Captura del Sistema (GUI)
 
-![Captura del sistema](https://i.imgur.com/GUI_Ejemplo.png)
+![Captura del sistema](https://drive.google.com/drive/home)
 
 Esta GUI desarrollada en Python y Qt permite seleccionar carpetas, lanzar procesamiento y visualizar métricas en tiempo real de forma amigable.
 
 ---
 
-## 📊 Métricas
-
-* 100 imágenes:
-
-  * Tiempo: `660 segundos`
-  * Bytes leídos: `88.34 GB`
-  * Bytes escritos: `530.06 GB`
-
-* 600 imágenes (estimación):
-
-  * Tiempo: `3960 segundos`
-  * Bytes leídos: `~530 GB`
-  * Bytes escritos: `~3.18 TB`
-
----
-
 ## ✅ Autores
 
-* Tu Nombre
-* Compañeros de equipo
+* Santiago Santos, Juan Medina, Hector Reyes
 * Tecnológico de Monterrey · TC3003 · Junio 2025
