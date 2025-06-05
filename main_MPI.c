@@ -9,7 +9,7 @@
 #include "image_utils.h"
 #include "metrics.h"
 
-#define NUM_IMAGES 100
+#define NUM_IMAGES 600
 #define KERNEL_VALUE 55
 #define TAG_WORK 1
 #define TAG_STOP 2
