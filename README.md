@@ -70,7 +70,7 @@ Si deseas consultar una versión visual o extenderlo a una wiki:
 
 ## 🖼️ Captura del Sistema (GUI)
 
-![Captura del sistema](https://drive.google.com/drive/home)
+![Captura del sistema]([https://drive.google.com/drive/home](https://drive.google.com/file/d/1hY6Uc2dhRBsOyIrK2bJMrrgzRfcSLXHp/view?usp=sharing))
 
 Esta GUI desarrollada en Python y Qt permite seleccionar carpetas, lanzar procesamiento y visualizar métricas en tiempo real de forma amigable.
 
